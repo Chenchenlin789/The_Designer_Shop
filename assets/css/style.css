@@ -3,8 +3,134 @@ Farbe: #323A45 / #848484 */
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400&display=swap');
 
+/* general styling */
 * {
     margin: 0;
     padding: 0;
+    
+}
+
+body {
     font-family: 'Karla', sans-serif;
+
+}
+
+
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1em;
+    color:  #848484;
+    padding-top: 3px;
+}
+
+/* navigation */
+header {
+    padding-right: 7%;
+    padding-left: 7%;
+    margin: 40px 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+h1 {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 9px; 
+    font-size: 0.9em;   
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+
+/* big image */
+.big {
+    width: 85%;
+    margin: 0 7.3%;
+}
+
+.small {
+    width: 78%;
+    margin: 0 7.3%;
+    padding-left: 14%;
+}
+
+/* description */
+.description {
+    display: flex;
+    margin: 20px 0 40px 7.3%;  
+}
+
+.space {
+    padding-left: 61%;
+}
+
+/* 3 products */
+.three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.first {
+    width: 79%;
+    margin-left: 7.3%;
+    padding-left: 14%;
+}
+
+.p1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 13%;
+    margin: 20px 0 40px 7.3%;
+    font-size: 0.9em;
+    
+
+}
+
+.second {
+    width: 79%;
+    margin-left: 11%;
+    margin-right: 4%;
+}
+.p2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 6%;
+    padding-left: 5%;
+    padding-right: 9%;
+    font-size: 0.9em;
+    
+
+}
+
+.last {
+    width: 79%;
+    margin-right: 10%;
+}
+
+.p3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+    padding-right: 21%;
+    font-size: 0.9em;
+    
+}
+
+/* last page */
+
+.last {
+    display: flex;
+    justify-content: space-between;
 }
